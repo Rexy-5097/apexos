@@ -15,7 +15,7 @@ ENV NODE_ENV=production
 
 LABEL org.opencontainers.image.title="ApexOS"
 LABEL org.opencontainers.image.description="Real-Time Global Intelligence & OSINT Platform"
-LABEL org.opencontainers.image.source="https://github.com/{{YOUR_GITHUB_USERNAME}}/apexos"
+LABEL org.opencontainers.image.source="https://github.com/Rexy-5097/apexos"
 LABEL org.opencontainers.image.licenses="MIT"
 
 RUN addgroup --system --gid 1001 nodejs && \

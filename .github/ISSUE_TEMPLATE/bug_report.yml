@@ -1,0 +1,61 @@
+name: Bug Report
+description: Report a reproducible bug in ApexOS
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+assignees: ["Rexy-5097"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug in **ApexOS**. Please fill in all sections.
+
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Affected Layer or Feature
+      options:
+        - Flight Tracking
+        - Earthquake Monitor
+        - CCTV Network
+        - Fire Hotspots
+        - Maritime Tracking
+        - Satellite Layer
+        - Space Weather
+        - Cyber / CVE
+        - Conflict Zones
+        - News Streams
+        - RECON Toolkit
+        - Map Rendering
+        - UI / HUD
+        - Docker / Deployment
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: What happened? What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Open the dashboard
+        2. Enable the [X] layer
+        3. ...
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "OS: macOS 14 | Browser: Chrome 124 | Node: 20.x | Docker: yes/no"
+    validations:
+      required: true

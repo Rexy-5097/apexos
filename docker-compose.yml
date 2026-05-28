@@ -1,7 +1,7 @@
 name: apexos
 services:
   apexos:
-    image: "{{YOUR_REGISTRY}}/apexos:latest"
+    image: "ghcr.io/rexy-5097/apexos:latest"
     build:
       context: .
       dockerfile: Dockerfile

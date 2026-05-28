@@ -2,7 +2,7 @@
   "name": "apexos",
   "version": "1.0.0",
   "description": "A real-time global intelligence dashboard that aggregates live flight tracking, seismic activity, CCTV feeds, conflict zones, cyber threats, and 24/7 news streams into a single GPU-accelerated OSINT interface.",
-  "author": "Soumyadeb Tripathy <soumyadeb043@gmail.com>",
+  "author": "Soumyadeb Tripathy <soumy.tripathy2024@lpu.in>",
   "license": "MIT",
   "repository": {
     "type": "git",

@@ -1,0 +1,36 @@
+name: Feature Request
+description: Propose a new intelligence layer or feature for ApexOS
+title: "[Feature]: "
+labels: ["enhancement"]
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What intelligence gap does this address?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: What data source, API, or UI change would address it?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature Category
+      options:
+        - New Intelligence Layer
+        - RECON Toolkit Enhancement
+        - UI / UX Improvement
+        - Performance Optimization
+        - Security Hardening
+        - DevOps / Infrastructure
+        - Documentation
+    validations:
+      required: true

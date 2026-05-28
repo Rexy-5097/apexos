@@ -9,7 +9,7 @@ ApexOS ships as a self-contained Next.js standalone build. This guide covers run
 ## 1. Docker Compose (recommended)
 
 ```bash
-git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/apexos.git
+git clone https://github.com/Rexy-5097/apexos.git
 cd apexos
 
 # optional: configure keys / scanner backend
@@ -39,10 +39,10 @@ docker compose down             # stop & remove
 ### Pull the prebuilt image
 
 ```bash
-docker pull {{YOUR_REGISTRY}}/apexos:latest
+docker pull ghcr.io/rexy-5097/apexos:latest
 docker run -d --name apexos \
   -p 3005:3000 --env-file .env --restart unless-stopped \
-  {{YOUR_REGISTRY}}/apexos:latest
+  ghcr.io/rexy-5097/apexos:latest
 ```
 
 ### Plain `docker run`
