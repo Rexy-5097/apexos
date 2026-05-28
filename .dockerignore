@@ -1,0 +1,26 @@
+# Dependencies & build output (rebuilt inside image)
+node_modules
+.next
+out
+build
+
+# Local env / secrets
+.env
+.env.local
+.env*.local
+
+# VCS & tooling
+.git
+.gitignore
+.github
+
+# Large fork artifacts and documentation
+*.diff
+*.md
+
+# OS / editor noise
+.DS_Store
+*.log
+npm-debug.log*
+.vscode
+.idea

@@ -1,0 +1,27 @@
+name: apexos
+services:
+  apexos:
+    image: "{{YOUR_REGISTRY}}/apexos:latest"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: apexos
+    ports:
+      - "${PORT:-3000}:3000"
+    env_file:
+      - .env
+    environment:
+      - NODE_OPTIONS=--dns-result-order=ipv4first
+      - NODE_ENV=production
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+    networks:
+      - default
+      - umami_default
+
+networks:
+  umami_default:
+    external: true
