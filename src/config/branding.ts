@@ -20,10 +20,10 @@ export const BRANDING = {
   domain: '{{YOUR_DOMAIN}}',
 
   /** GitHub repository URL */
-  repoUrl: 'https://github.com/{{YOUR_GITHUB_USERNAME}}/apexos',
+  repoUrl: 'https://github.com/Rexy-5097/apexos',
 
   /** Issues / bug report URL */
-  issuesUrl: 'https://github.com/{{YOUR_GITHUB_USERNAME}}/apexos/issues',
+  issuesUrl: 'https://github.com/Rexy-5097/apexos/issues',
 
   /** Community link (Discord, Slack, etc.) — set null to hide */
   communityUrl: null as string | null,

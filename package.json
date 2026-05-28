@@ -1,12 +1,12 @@
 {
   "name": "apexos",
   "version": "1.0.0",
-  "description": "{{YOUR_DESCRIPTION}}",
-  "author": "{{YOUR_NAME}} <{{YOUR_EMAIL}}>",
+  "description": "A real-time global intelligence dashboard that aggregates live flight tracking, seismic activity, CCTV feeds, conflict zones, cyber threats, and 24/7 news streams into a single GPU-accelerated OSINT interface.",
+  "author": "Soumyadeb Tripathy <soumyadeb043@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/{{YOUR_GITHUB_USERNAME}}/apexos.git"
+    "url": "https://github.com/Rexy-5097/apexos.git"
   },
   "private": true,
   "scripts": {
@@ -32,6 +32,7 @@
     "ws": "^8.21.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.60.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
